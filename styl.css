@@ -8,8 +8,7 @@ body {
     width: 100%;
     height: 100%;
 }
-
-nav ul li {
+ nav ul li {
     display: inline-block;
     list-style: none;
 }
@@ -23,6 +22,11 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: rgb(134, 127, 127);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .icon a {
@@ -39,8 +43,9 @@ a {
     display: flex;
     justify-content: center;
     font-size: 1.5rem;
-}
+   
 
+}
 .navbar a {
     color: black;
 }
@@ -115,3 +120,88 @@ footer p{
 h1{
     margin-left: 30rem;
 }
+#hamburger{
+    font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+   
+    #hamburger{
+        display: none;
+    }
+    .top{
+        display: none;
+    }
+   
+  }
+  
+  @media (max-width: 768px) {
+    .navbar{
+      display: none;
+    }
+    .logo{
+        width: 7rem;
+        font-size: 1.5rem;
+        
+    }
+    #hamburger{
+        font-size: 2.5rem;
+    }
+    input{
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        width: 20rem;
+        font-size: 1rem;
+    }
+    button{
+        font-size: 1rem;
+        width: 8rem;
+        margin-left: 7rem;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .icon{
+        font-size: 1rem; 
+        margin-left: 2rem;
+    }
+    .reponse{
+        width: 25rem;
+        margin-left: 0.3rem;
+        font-size: 1rem;
+        overflow: hidden;
+        height: 30rem;
+    }
+    footer{
+        padding-top: 1rem;
+        width: 100%;
+        height: 5rem;
+        text-align: center;
+    }
+    footer p{
+        font-size: 1rem;
+    }
+    footer .logo{
+        margin-left: 8rem;
+        font-size: 1rem;
+    }
+    h1{
+        margin-left: 8rem;
+    }
+    .top{
+        cursor: pointer;
+        width: 7rem;
+        height: 8rem;
+        background-color: #CDDC39;
+        display: block;
+        font-size: 1.5rem;
+        top: -0.9rem;
+        left: 19rem;
+        padding-left: 0.5rem;
+        position: relative;
+        transition: all ease-in-out;
+        display: none;
+    }
+   
+  }
+  

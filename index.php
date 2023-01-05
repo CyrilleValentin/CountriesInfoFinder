@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+   
     <link rel="stylesheet" href="styl.css">
-    <title>Document</title>
+    <title>CountriesInfoFinder</title>
 </head>
 
 <body>
@@ -23,15 +24,30 @@
                     <li><a href="#">Contacter</a></li>
                 </ul>
             </nav>
+            
         </div>
+        
+        
+        
         <div class="icon">
             <a href="https://twitter.com"><i class='bx bxl-twitter'></i></a>
             <a href="https://www.facebook.com"> <i class='bx bxl-facebook'></i></a>
             <a href="https://www.instagram.com"> <i class='bx bxl-instagram'></i></a>
-
+            
         </div>
+        <i id="hamburger" onclick="afficher()" class="bx bx-menu"></i>
     </header>
-
+    <div id="top" class="top">
+    <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">A propos</a></li>
+                    <li><a href="#">Contacter</a></li>
+                    <li onclick="fermer()"></li><a href="#" ></a></a><i class="bx bx-exit" ></i> Fermer</a></li>
+                </ul>
+            </nav>
+    </div>
+    <script src="scrip.js"></script>
     <div class="container"></div>
     </div>
     <div class="input">
@@ -93,7 +109,3 @@
 </body>
 
 </html>
-<?php
-
-
-?>
