@@ -79,7 +79,7 @@
 
             curl_close($curl);
             $tableau = json_decode($response, true);
-            if(isset($_POST["code"])){
+            if(!empty($_POST["code"])){
                 echo '<ul>';
                 foreach ($tableau as $cle => $valeur) {
                     echo '<li>' . $cle . ' : ' . $valeur . '</li>';
