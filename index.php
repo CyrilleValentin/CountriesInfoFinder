@@ -43,7 +43,7 @@
                     <li><a href="#">Accueil</a></li>
                     <li><a href="#">A propos</a></li>
                     <li><a href="#">Contacter</a></li>
-                    <li onclick="fermer()"></li><a href="#" ></a></a><i class="bx bx-exit" ></i> Fermer</a></li>
+                    <li onclick="fermer()"><a href="#" ></a><i class="bx bx-exit" ></i> Fermer</a></li>
                 </ul>
             </nav>
     </div>
@@ -102,7 +102,12 @@
             <a href="#"><span>Countries</span>Info<span class="span">Finder</span></a>
         </div>
         <p>Cyrillekyrillos6@gmail.com</p>
-
+        <div class="icon1">
+        <a href="https://twitter.com/KyrillosCyrille"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.facebook.com/cyrille.adjewoda.7"> <i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/cyrille_valentin/"> <i class='bx bxl-instagram'></i></a>
+            
+        </div>
         <p>© 2023 par Cyrille ADJEWODA</p>
     </footer>
 

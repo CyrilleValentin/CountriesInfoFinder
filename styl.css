@@ -140,7 +140,7 @@ h1{
     }
     .logo{
         width: 7rem;
-        font-size: 1.5rem;
+        font-size: 2rem;
         
     }
     #hamburger{
@@ -162,11 +162,13 @@ h1{
         flex-direction: column;
     }
     .icon{
-        font-size: 1rem; 
-        margin-left: 2rem;
+        display: none;
+    }
+    .icon1{
+      font-size: 1.2rem;
     }
     .reponse{
-        width: 25rem;
+        width: 24rem;
         margin-left: 0.3rem;
         font-size: 1rem;
         overflow: hidden;
@@ -175,7 +177,7 @@ h1{
     footer{
         padding-top: 1rem;
         width: 100%;
-        height: 5rem;
+        height: 7rem;
         text-align: center;
     }
     footer p{
@@ -195,13 +197,24 @@ h1{
         background-color: #CDDC39;
         display: block;
         font-size: 1.5rem;
-        top: -0.9rem;
-        left: 19rem;
+        top: 2rem;
+        left: 17rem;
         padding-left: 0.5rem;
         position: relative;
         transition: all ease-in-out;
         display: none;
-    }
+        z-index: 1;
+        position: fixed;
+    
+    
    
+    }
+   .head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+   }
   }
   
