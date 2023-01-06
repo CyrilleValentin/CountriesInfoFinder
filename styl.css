@@ -192,13 +192,13 @@ h1{
     }
     .top{
         cursor: pointer;
-        width: 7rem;
-        height: 8rem;
+        width: 9rem;
+        height: 8.5rem;
         background-color: #CDDC39;
         display: block;
         font-size: 1.5rem;
         top: 2rem;
-        left: 17rem;
+        left: 16rem;
         padding-left: 0.5rem;
         position: relative;
         transition: all ease-in-out;
